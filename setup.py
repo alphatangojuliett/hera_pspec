@@ -44,7 +44,7 @@ setup_args = {
         'astropy>=2.0',
         'pyyaml',
         'h5py',
-        'uvtools @ git+git://github.com/HERA-Team/uvtools',
+        'uvtools @ git+git://github.com/HERA-Team/uvtools@plot_range_control#egg=uvtools',
         'hera_cal @ git+git://github.com/HERA-Team/hera_cal'
     ],
     'include_package_data': True,
